@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d2d2e;
+    color: #FFF;
+}
+
+h1 {
+    color: #6e1af5;
+}
+
+h2 {
+    color: #f88417;
+}
+
+.titulo {
+    display: flex;
+    margin: 0 0 20px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-perfil {
+    width: 80%;
+    margin: 20px 0;
+    padding: 30px;
+    border: 5px solid #f88417;
+    border-radius: 10px;
+    box-shadow: 15px 10px 5px 5px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 15px 10px 5px 5px rgba(0,0,0,0.84);
+    -moz-box-shadow: 15px 10px 5px 5px rgba(0,0,0,0.84);
+}
+
+.form-perfil input {
+    display: flex;
+    color: #FFF;
+    width: 50%;
+    height: 50px;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-bottom: 2px solid #f88417;
+    outline: 0;
+    position: relative;
+    text-align: center;
+}
+
+.form-perfil input:focus, input:hover {
+    border-bottom: 5px solid #f88417;
+}
+
+.form-perfil label {
+    font-weight: 700;
+}
