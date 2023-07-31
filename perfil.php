@@ -12,21 +12,30 @@
     
     <div class="container">
       <div class="d-flex justify-content-center">
-        <h2 class="">Suas características!</h2>
+        <h2>Suas características!</h2>
       </div>
       <div class="row d-flex justify-content-center">
         <div class="form-perfil">
           <form action="" method="post">
-            <h3 class="text-center">Um pouco mais sobre você:</h3>
+            <h3 class="text-center">Seu perfil Bruxo</h3>
             <div class="row">
-              <img src="" alt="">
+              <div class="perfil-bruxo">
+                <img src="./imagens/bruxa-hogwarts.jpg" class="imagem-perfil" alt="">
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <input type="file" class="input-imagem-perfil" name="" id="form-imagem">
+              <label for="form-imagem" id="label-form-imagem">
+                Selecione sua foto
+                <img class="icone-imagem-perfil" src="./imagens/imagem-perfil.svg" alt="">
+              </label>
             </div>
             <div class="row">
               <label for="" class="text-center">Seu nome bruxo</label>
               <input type="text" class="mb-3" name="" id="">
             </div>
             <div class="row">
-              <label for="" class="text-center">Sua idade</label>
+              <label for="" class="text-center">Sua matéria preferida</label>
               <input type="text" class="mb-3" name="" id="">
             </div>
             <div class="row">
@@ -36,7 +45,10 @@
             <div class="row">
               <label for="" class="text-center">Seu patrono</label>
               <input type="text" class="mb-3" name="" id="">
-            </div>              
+            </div>
+            <div class="row d-flex justify-content-center">
+              <button class="botao-perfil">Enviar</button>
+            </div>           
           </form>
         </div>
       </div>

@@ -5,15 +5,19 @@
 }
 
 body {
-    background-color: #2d2d2e;
+    background-color: #2a2a38;
     color: #FFF;
+    background-image: url(./imagens/hogwarts.jpg);
+    background-position: center;
+    background-size: unset;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    color: #6e1af5;
+    color: #f88417;
 }
 
-h2 {
+h3 {
     color: #f88417;
 }
 
@@ -28,6 +32,9 @@ h2 {
     width: 80%;
     margin: 20px 0;
     padding: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 5px solid #f88417;
     border-radius: 10px;
     box-shadow: 15px 10px 5px 5px rgba(0,0,0,0.84);
@@ -56,4 +63,67 @@ h2 {
 
 .form-perfil label {
     font-weight: 700;
+}
+
+.perfil-bruxo {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-perfil {
+    width: 310px;
+    height: 310px;
+    background-color: #FFF;
+    margin: 10px;
+    border: 5px solid #f88417;
+    border-radius: 50%;
+}
+
+#form-imagem {
+    display: none;
+}
+
+#label-form-imagem {
+    display: flex;
+    width: fit-content;
+    margin: 20px;
+    padding: 10px;
+    color: #f88417;
+    background-color: #FFF;
+    border: 2px solid #f88417;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#label-form-imagem:hover {
+    background-color: #f88417;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.icone-imagem-perfil {
+    width: 50px;
+    margin: 0 0 0 10px;
+    height: 50px;
+    padding: 10px;
+}
+
+.botao-perfil {
+    width: 50%;
+    height: 50px;
+    margin: 20px;
+    font-weight: 700;
+    background-color: #FFF;
+    color: #f88417;
+    border: 2px solid #f88417;
+    border-radius: 10px;
+}
+
+.botao-perfil:hover {
+    background-color: #f88417;
+    color: #FFF;
+    border: 2px solid #FFF;
 }
