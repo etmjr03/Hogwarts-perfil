@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 class="titulo">Olá Bruxo, seja bem-vindo(a)!</h1>
+    <h1 class="titulo">Olá Bruxo(a), seja bem-vindo(a)!</h1>
     
     <div class="container">
-      <div class="d-flex justify-content-center">
-        <h2>Suas características!</h2>
-      </div>
       <div class="row d-flex justify-content-center">
         <div class="form-perfil">
+          <img class="brasao-casa" src="./imagens/brasao-hogwarts.png" alt="Brasão da casa">
           <form action="" method="post">
             <h3 class="text-center">Seu perfil Bruxo</h3>
             <div class="row">
@@ -32,19 +30,27 @@
             </div>
             <div class="row">
               <label for="" class="text-center">Seu nome bruxo</label>
-              <input type="text" class="mb-3" name="" id="">
+              <input type="text" class="mb-3" name="nome" id="">
             </div>
             <div class="row">
               <label for="" class="text-center">Sua matéria preferida</label>
-              <input type="text" class="mb-3" name="" id="">
+              <input type="text" class="mb-3" name="materia" id="">
             </div>
             <div class="row">
               <label for="" class="text-center">Sua magia preferida</label>
-              <input type="text" class="mb-3" name="" id="">
+              <input type="text" class="mb-3" name="magia" id="">
             </div>
             <div class="row">
               <label for="" class="text-center">Seu patrono</label>
-              <input type="text" class="mb-3" name="" id="">
+              <input type="text" class="mb-3" name="patrono" id="">
+            </div>
+            <div class="row dp-flex mt-3 mb-3">
+              <p class="text-center">Descubra qual é sua casa de Hogwarts clicando no 
+                <span class="texto-chapeu-seletor">chapéu seletor!<span>
+              </p>
+              <a class="text-center" href="#">
+                <img class="icone-chapeu-seletor" src="./imagens/chapeu-seletor.svg" alt="">
+              </a>
             </div>
             <div class="row d-flex justify-content-center">
               <button class="botao-perfil">Enviar</button>

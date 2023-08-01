@@ -40,6 +40,7 @@ h3 {
     box-shadow: 15px 10px 5px 5px rgba(0,0,0,0.84);
     -webkit-box-shadow: 15px 10px 5px 5px rgba(0,0,0,0.84);
     -moz-box-shadow: 15px 10px 5px 5px rgba(0,0,0,0.84);
+    position: relative;
 }
 
 .form-perfil input {
@@ -126,4 +127,29 @@ h3 {
     background-color: #f88417;
     color: #FFF;
     border: 2px solid #FFF;
+}
+
+.brasao-casa {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icone-chapeu-seletor {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: #f88417;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.texto-chapeu-seletor {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f88417;    
 }
