@@ -5,13 +5,8 @@
 }
 
 body {
-    background-color: #2a2a38;
-    color: #FFF;
-    background-image: url(./imagens/hogwarts.jpg);
-    background-position: center;
-    background-size: unset;
-    background-repeat: no-repeat;
-    background-position: fixed
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -20,6 +15,49 @@ h1 {
 
 h3 {
     color: #f88417;
+}
+
+#nav-transparente {
+    background: transparent !important;
+}
+
+.layout {
+    min-height: 110vh;
+    color: #FFF;
+    background-image: url(./imagens/hogwarts.jpg);
+    background-position: center;
+    background-size: unset;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    position: relative;
+}
+
+.corvinal {
+    width: 150px;
+    left: 0;
+    top: 60px;
+    position: absolute;
+}
+
+.lufa-lufa {
+    width: 150px;
+    right: 0;
+    top: 60px;
+    position: absolute;
+}
+
+.grifinoria {
+    width: 150px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.sonserina {
+    width: 150px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
 }
 
 .titulo {
@@ -33,7 +71,7 @@ h3 {
     width: 80%;
     margin: 20px 0;
     padding: 30px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    background: linear-gradient(135deg, #ffffffbd, rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 5px solid #f88417;
@@ -153,4 +191,19 @@ h3 {
     font-size: 20px;
     font-weight: 600;
     color: #f88417;    
+}
+
+/* --- scrollbar --- */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    height: 10px;
+    background: #2c2626;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f88417;
 }
