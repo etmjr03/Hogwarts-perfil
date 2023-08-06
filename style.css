@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(0, 0, 0);
+    background: #212529;
     overflow-x: hidden;
 }
 
@@ -54,6 +54,39 @@ h3 {
 }
 
 .sonserina {
+    width: 150px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.imagens-nav {
+    min-height: 100%;
+    position: relative;
+}
+
+.corvinal-nav {
+    width: 150px;
+    left: 0;
+    top: 60px;
+    position: absolute;
+}
+
+.lufa-lufa-nav {
+    width: 150px;
+    right: 0;
+    top: 60px;
+    position: absolute;
+}
+
+.grifinoria-nav {
+    width: 150px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.sonserina-nav {
     width: 150px;
     left: 0;
     bottom: 0;
